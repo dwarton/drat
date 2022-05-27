@@ -6,3 +6,13 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: ecomix
+Version: 0.0.1
+Depends: R (>= 3.4.0)
+Imports: glmnet, fishMod, MASS, mgcv, gtools, parallel, stats, graphics,
+        raster, scales, numDeriv, surveillance, progress, kmed
+Suggests: knitr, rmarkdown, testthat, covr
+License: MIT
+MD5sum: cd67c1c82da91e831358a57cb58d8e0c
+NeedsCompilation: yes
